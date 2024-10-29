@@ -1,0 +1,121 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+p{
+    width: 96%;
+    background-color: rgb(207, 245, 245);
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: lightyellow;
+    width: 100%;
+}
+
+.logo {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+    background-color: pink;
+    position: relative;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    width: 100%;
+    background-color: pink;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.navigation a {
+    text-decoration: none; 
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(207, 245, 245);
+    flex-basis: 23%;
+    border-right: 1px solid black;
+}
+
+.side-bar a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.body-area{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 207, 207);
+    flex-basis: 75%;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    min-height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+body {
+
+    background-color: rgb(224, 224, 205);
+}
